@@ -1,7 +1,17 @@
 # TransCardBot
-Телеграм бот, который поможет быстро узнать баланс и другие данные транспортной карты Казани: https://t.me/TransCardBot
-# Что использовалось
-<h3>Бот</h3>
-<a href='http://docs.peewee-orm.com/en/latest/'>peewee</a> и <a href='https://github.com/python-telegram-bot/python-telegram-bot'>python-telegram-bot</a> 
-<h3>Решение капчи</h3>
-<a href='https://pillow.readthedocs.io/en/5.1.x/'>Pillow</a>, <a href='https://github.com/skvark/opencv-python'>OpenCV on Wheels</a>, <a href='https://www.tensorflow.org/'>TensorFlow</a> и <a href='https://keras.io/'>Keras</a>
+
+A Telegram bot that will help you quickly find out the balance and other data of the Kazan transport card: https://t.me/TransCardBot
+
+# What was used
+
+### Bot
+
+- [peewee](http://docs.peewee-orm.com/en/latest/)
+- [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
+
+### Captcha solving
+
+- [Pillow](https://pillow.readthedocs.io/en/stable/)
+- [OpenCV on Wheels](https://github.com/skvark/opencv-python)
+- [TensorFlow](https://www.tensorflow.org/)
+- [Keras](https://keras.io/)
